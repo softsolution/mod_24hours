@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<backend>
+    <module>
+        <id>mod_24hours</id>
+        <title>За последние сутки</title>
+    </module>
+    <params>
+        <param type="flag" name="show_news" title="Показывать Количество новостей" default="on" />
+        <param type="list_db" name="cat_id" title="Считать материалы из раздела" src="cms_category" src_title="title" src_value="id" tree="1" />
+        <param type="flag" name="subs" title="Вместе с подразделами" default="off" />
+        <param type="flag" name="show_photos" title="Показывать Количество новых фотографий" default="on" />
+        <param type="flag" name="show_blogposts" title="Показывать Количество постов из блогов" default="on" />
+        <param type="flag" name="show_clubspost" title="Показывать Количество постов из клубов" default="on" />
+        <param type="flag" name="show_boardpost" title="Показывать Количество новых объявлений" default="on" />
+        <param type="flag" name="show_users" title="Показывать Количество новых регистраций" default="on" />
+    </params>
+</backend>
